@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+</head>
+
+<body>
+    <h1>Mi Página de Perfil</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="tipo">Tipo de usuario:</label>
+            <input type="text" id="tipo" name="tipo" value="ESTUDIANTE" readonly><br><br>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br><br>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="Nacionalidad" name="Nacionalidad" required><br><br>
+
+            </select><br><br>
+            <label for="condicion">Condición Laboral:</label>
+            <select id="condicion" name="condicion">
+                <option value="desempleado">Desempleado</option>
+                <option value="busqueda">En búsqueda laboral</option>
+                <option value="parttime">Trabajo part time</option>
+                <option value="fulltime">Trabajo full time</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gustos Personales</legend>
+            <label for="musica">Gustos Musicales:</label>
+            <input type="text" id="Gustos Musicales" name="Gustos Musicales" required><br><br>
+            <label for="comidas">Comidas Preferidas:</label>
+            <input type="text" id="Comidas Preferidas" name="Comidas Preferidas" required><br><br>
+
+            </select><br><br>
+            <label for="recordar">Recordar Datos:</label>
+            <input type="checkbox" id="recordar" name="recordar">
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
